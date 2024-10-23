@@ -1,0 +1,25 @@
+
+Assignment name: Assignment 1:ClockShop Conundrums
+TCSS 305 C : Programming Practicum, Autumn 2024
+
+Name: Bashir Maxamed
+UWNetID: Maxamb
+
+Assignment Overview:
+The purpose of this assignment was to reinforce and practice the foundational Java programming skills learned in TCSS 142 and 143. The assignment required working with arrays of objects, file input/output, sorting, searching, and object manipulation. Specifically, I was tasked with designing a Clock class that models a simple clock and a ClockShop class to manage multiple Clock objects. The assignment involved reading from input files to populate an array of clock objects, performing operations such as sorting the clocks by time, searching for specific clocks, and writing the array of clocks back to a file. Additionally, the assignment required implementing methods that handle exceptions for invalid time values. Overall, this project reinforced my understanding of object-oriented programming, exception handling, and array manipulation in Java.
+
+Technical Impression:
+To complete this assignment, I started by developing the Clock class, which includes constructors, getter and setter methods, and time manipulation methods like advanceHour and advanceMinute. I then implemented the ClockShop class, which holds an array of clocks and provides functionality for sorting, searching, retrieving, and modifying clock objects. One challenge I faced was encountering minor issues with file reading and writing, which I resolved by carefully handling delimiters and ensuring correct file paths were used. The assignment also helped me better understand exception handling as I had to ensure invalid time values threw appropriate exceptions.
+
+Unresolved problems in my submission:
+None.
+
+Citations and Collaborations:
+For this assignment, my main resource was the detailed assignment description provided by the instructor. Additionally, I frequently referred back to the recorded lessons available in the Canvas section of Cloud Recordings to reinforce my understanding of Java concepts relevant to the task. I also made use of the course materials provided on Canvas and consulted the Java reference book recommended for the course. It's important to note that I completed this assignment independently and did not engage in any collaboration with other students.
+
+Extra Credit:
+1. Changed the delimiter in the fillClockShop() method to read the clock times using a colon (:) and newline (\n).
+2. Added the setToCurrentTime() method in the Clock class, which sets the clock’s time to the current system time using Calendar.getInstance().
+
+Questions:
+None.
